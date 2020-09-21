@@ -8631,12 +8631,13 @@ h1, h2, h3, h4, h5,
 .ftco-about .img-about {
   width: 100%;
   z-index: 0;
-  position: relative; }
+  position: relative;
+   }
   .ftco-about .img-about .img {
     display: block;
-    width: 400px;
+    width: 100%;
     position: relative;
-    z-index: 4; }
+    z-index: 1; }
 
 .ftco-about ul.about-info {
   display: inline-block;
@@ -9384,7 +9385,7 @@ textarea.form-control {
     width: 100px;
     height: 100px;
     background: #3e64ff;
-    margin: 0 auto;
+    margin: 0 center;
     margin-bottom: 10px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
